@@ -1,83 +1,23 @@
 {
-  
-
   "name": "uvm_server",
-  
-
   "version": "1.0.0",
-  
-
   "description": "",
-  
-
   "main": "app.js",
-  
-
   "scripts": {
-  
-
-    
-
-  "start": "nodemon app.js"
-  
-
-  },
-  
-
+    "start": "node app.js",
+    "dev": "nodemon app.js"  },
   "keywords": [],
-  
-
   "author": "",
-  
-
   "license": "ISC",
-  
-
   "type": "module",
-  
-
   "dependencies": {
-  
-
-    
-
-  "bcrypt": "^5.1.0",
-  
-
-    
-
-  "changelly-js": "^2.1.0",
-  
-
-    
-
-  "cors": "^2.8.5",
-  
-
-    
-
-  "express": "^4.18.2",
-  
-
-    
-
-  "jsonwebtoken": "^9.0.0",
-  
-
-    
-
-  "mongoose": "^6.7.1",
-  
-
-    
-
-  "nodemon": "^2.0.20",
-  
-
-    
-
-  "stripe": "^12.3.0"
-  
-
+    "bcrypt": "^5.1.0",
+    "changelly-js": "^2.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.7.1",
+    "nodemon": "^2.0.20",
+    "stripe": "^12.3.0"
   }
 }
